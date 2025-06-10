@@ -1,12 +1,12 @@
 import ToDoItem from "./todolist_item.jsx";
 
-export default function ToDoList({ todoTasksData }) {
+export default function ToDoList({ todoTasksData, userName }) {
    const todoTasksSorted = sortData(todoTasksData);
 
    return (
       <ul className="todolist">
          {todoTasksSorted.map((task) => {
-            return <ToDoItem key={task.id} taskData={task} />;
+            return <ToDoItem key={task.id} taskData={task} userName={userName} />;
          })}
       </ul>
    );

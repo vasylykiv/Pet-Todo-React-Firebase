@@ -2,7 +2,7 @@ import { useState, memo, useEffect, useRef } from "react";
 import useEditData from "../shared/api/editDataFromApi.jsx";
 import useDeleteData from "../shared/api/deleteApiData.jsx";
 
-const ToDoItem = memo(function ToDoItem({ taskData }) {
+const ToDoItem = memo(function ToDoItem({ taskData, userName }) {
    const [inputText, setInputText] = useState(taskData.taskBody);
    const [isEdit, setIsEdit] = useState(false);
    const formDOMElement = useRef(null);
@@ -41,7 +41,7 @@ const ToDoItem = memo(function ToDoItem({ taskData }) {
    return (
       <li className={"todo-item" + isCompleteClassName + isEditClassName}>
          <h2 className="todo-item__title" aria-label="task name">
-            {taskData.taskBody}
+            {userName} task:
          </h2>
          {!isEdit ? (
             <p>{taskData.taskBody}</p>
