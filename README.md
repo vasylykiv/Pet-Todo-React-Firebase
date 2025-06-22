@@ -21,7 +21,7 @@
 
 | Desktop | Mobile |
 |--------|--------|
-| ![Desktop](screenshots/desktop.png) | ![Mobile](screenshots/mobile.png) |
+| ![Desktop](desktop.png) | ![Mobile](mobile.png) |
 
 > *(заміни ці зображення на власні скріншоти: зроби знімок із браузера або devtools і збережи в папку `screenshots/`)*
 
