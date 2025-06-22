@@ -1,12 +1,37 @@
-# React + Vite
+# 📝 ToDo App — React + Firebase + TanStack Query
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Це сучасний ToDo-додаток, створений на React із використанням Firebase та TanStack Query для роботи з базою даних і оптимізації асинхронної логіки.
 
-Currently, two official plugins are available:
+## 🔧 Технології
+- React (Hooks)
+- Firebase (Realtime Database)
+- TanStack Query
+- Axios
+- SCSS
+- Семантична та адаптивна верстка
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Функціонал
+- Створення, редагування та видалення задач
+- Збереження задач у реальному часі через Firebase
+- Завантаження даних та обробка станів (loading, error)
+- Адаптивність та підтримка мобільних пристроїв
+- Оптимізація React-компонентів для швидкої роботи
 
-## Expanding the ESLint configuration
+## 📸 Скріншоти
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+| Desktop | Mobile |
+|--------|--------|
+| ![Desktop](screenshots/desktop.png) | ![Mobile](screenshots/mobile.png) |
+
+> *(заміни ці зображення на власні скріншоти: зроби знімок із браузера або devtools і збережи в папку `screenshots/`)*
+
+## 🔗 Демо
+[Перейти до додатку](https://vasylykiv.github.io/Pet-Todo-React-Firebase/)
+
+## 🗂️ Встановлення локально
+
+```bash
+git clone https://github.com/vasylykiv/Pet-Todo-React-Firebase.git
+cd Pet-Todo-React-Firebase
+npm install
+npm run dev
