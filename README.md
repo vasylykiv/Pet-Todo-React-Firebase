@@ -1,34 +1,32 @@
 # 📝 ToDo App — React + Firebase + TanStack Query
 
-Це сучасний ToDo-додаток, створений на React із використанням Firebase та TanStack Query для роботи з базою даних і оптимізації асинхронної логіки.
+This is a modern ToDo app built with React, using Firebase and TanStack Query to work with the database and optimize asynchronous logic.
 
-## 🔧 Технології
+## 🔧 Technologies
 - React (Hooks)
 - Firebase (Realtime Database)
 - TanStack Query
 - Axios
 - SCSS
-- Семантична та адаптивна верстка
+- Semantic and responsive layout
 
-## 🚀 Функціонал
-- Створення, редагування та видалення задач
-- Збереження задач у реальному часі через Firebase
-- Завантаження даних та обробка станів (loading, error)
-- Адаптивність та підтримка мобільних пристроїв
-- Оптимізація React-компонентів для швидкої роботи
+## 🚀 Features
+- Create, edit, and delete tasks
+- Real-time task saving through Firebase
+- Data loading and state handling (loading, error)
+- Responsiveness and mobile device support
+- React component optimization for fast performance
 
-## 📸 Скріншоти
+## 📸 Screenshots
 
 | Desktop | Mobile |
 |--------|--------|
 | ![Desktop](desktop.png) | ![Mobile](mobile.png) |
 
-> *(заміни ці зображення на власні скріншоти: зроби знімок із браузера або devtools і збережи в папку `screenshots/`)*
+## 🔗 Demo
+[Go to the app](https://vasylykiv.github.io/Pet-Todo-React-Firebase/)
 
-## 🔗 Демо
-[Перейти до додатку](https://vasylykiv.github.io/Pet-Todo-React-Firebase/)
-
-## 🗂️ Встановлення локально
+## 🗂️ Local Installation
 
 ```bash
 git clone https://github.com/vasylykiv/Pet-Todo-React-Firebase.git
